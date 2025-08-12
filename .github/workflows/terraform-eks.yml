@@ -1,9 +1,7 @@
 name: Deploy EKS with Terraform
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
   terraform:
