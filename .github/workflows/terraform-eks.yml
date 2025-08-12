@@ -3,7 +3,7 @@ name: Deploy EKS with Terraform
 on:
   push:
     branches:
-      - master
+      - deveop
 
 jobs:
   terraform:
